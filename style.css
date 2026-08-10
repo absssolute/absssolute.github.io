@@ -286,3 +286,23 @@ footer {
   .hero h1 { font-size: 2.2rem; }
   .nav-links { display: none; } /* Add a mobile drawer if needed */
 }
+
+/* Styling clickable project cards */
+.card-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.view-project {
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--accent);
+  transition: transform 0.2s;
+}
+
+.card-link:hover .view-project {
+  transform: translateX(4px);
+}
